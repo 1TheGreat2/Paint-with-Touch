@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0047ab;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar label, .toolbar input, .toolbar button {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.toolbar label {
+    color: #ffffff;
+}
+
+.toolbar input[type="color"] {
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.toolbar input[type="range"] {
+    width: 150px;
+}
+
+.toolbar button {
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+    color: #0047ab;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toolbar button:hover {
+    background-color: #e0a800;
+}
+
+canvas {
+    border: 2px solid #0047ab;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: crosshair;
+}

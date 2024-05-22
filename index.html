@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <label for="colorPicker">Color: </label>
+        <input type="color" id="colorPicker">
+        
+        <label for="lineWidth">Line Width: </label>
+        <input type="range" id="lineWidth" min="1" max="50" value="5">
+        
+        <button id="freehand">Freehand</button>
+        <button id="rectangle">Rectangle</button>
+        <button id="eraser">Eraser</button>
+        <button id="clearCanvas">Clear</button>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
